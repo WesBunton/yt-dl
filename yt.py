@@ -10,10 +10,6 @@ from datetime import datetime, timedelta
 download_path = {'home':'/mnt/videoshare'}
 yt_url_prefix = 'https://youtu.be/'
 
-# TODO: REMOVE THIS DATA
-# api_key = 'AIzaSyC0PYpvQbhXlzm8Q6k0Mfp8f1v4EBL5nn8'
-# yt_channel_id = 'UCKL-7sQhahBEb9vvSEZqwUg'
-
 def download_video(url):
     yt_opts = {
         'verbose': True,
